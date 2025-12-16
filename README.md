@@ -48,8 +48,7 @@ El núcleo de la configuración reside en la **MainActivity**:
 Se obtiene el controlador a través del `NavHostFragment`:
 
 ```kotlin
-val navHostFragment = supportFragmentManager
-    .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
 
 navController = navHostFragment.navController
 ```
